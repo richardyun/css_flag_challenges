@@ -7,11 +7,11 @@
     border: 1px solid black
 }
 #columbia > .topSegment {
-    height: 100px;
+    height: 50%;
     background-color: yellow;
 }
 #columbia > .middleSegment, #columbia > .bottomSegment {
-    height: 50px;
+    height: 25%;
 }
 #columbia > .middleSegment {
     background-color: blue
