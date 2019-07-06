@@ -1,5 +1,17 @@
 /* Indonesia */
-
+#indonesia {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black
+}
+#indonesia > .topSegment {
+    height: 100px;
+    background-color: red
+}
+#indonesia > .bottomSegment {
+    height: 100px;
+    background-color: whitesmoke
+}
 /* Colombia */
 
 /* Ireland */
