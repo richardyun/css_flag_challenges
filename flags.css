@@ -1,7 +1,24 @@
 /* Indonesia */
 
 /* Colombia */
-
+#columbia {
+    height: 200px;
+    width: 300px;
+    border: 1px solid black
+}
+#columbia > .topSegment {
+    height: 100px;
+    background-color: yellow;
+}
+#columbia > .middleSegment, #columbia > .bottomSegment {
+    height: 50px;
+}
+#columbia > .middleSegment {
+    background-color: blue
+}
+#columbia > .bottomSegment {
+    background-color: red
+}
 /* Ireland */
 
 /* France */
