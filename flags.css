@@ -3,6 +3,25 @@
 /* Colombia */
 
 /* Ireland */
+#ireland {
+    display: flex;
+    height: 200px;
+    width: 300px;
+    border: 1px solid black
+}
+#ireland > .leftSegment, #ireland > .middleSegment, #ireland > .rightSegment {
+    display: inline-block;
+    width: 100%
+}
+#ireland > .leftSegment {
+    background-color: seagreen
+}
+#ireland > .middleSegment {
+    background-color: whitesmoke
+}
+#ireland > .rightSegment {
+    background-color: rgb(252, 143, 1)
+}
 
 /* France */
 
