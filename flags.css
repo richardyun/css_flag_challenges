@@ -1,25 +1,28 @@
+.flagContainer {
+    height: 60vmin;
+    width: 90vmin;
+    margin: 5vmin;
+    border: 1px solid black;
+    box-sizing: border-box
+}
 /* Indonesia */
 
 /* Colombia */
 
 /* Ireland */
 #ireland {
-    display: flex;
-    height: 200px;
-    width: 300px;
-    border: 1px solid black
+    display: flex
 }
-#ireland > .leftSegment, #ireland > .middleSegment, #ireland > .rightSegment {
-    display: inline-block;
+#ireland>.leftSegment, #ireland>.middleSegment, #ireland>.rightSegment {
     width: 100%
 }
-#ireland > .leftSegment {
+#ireland>.leftSegment {
     background-color: seagreen
 }
-#ireland > .middleSegment {
+#ireland>.middleSegment {
     background-color: whitesmoke
 }
-#ireland > .rightSegment {
+#ireland>.rightSegment {
     background-color: rgb(252, 143, 1)
 }
 
