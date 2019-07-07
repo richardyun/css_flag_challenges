@@ -1,22 +1,23 @@
+.flagContainer {
+    height: 66vmin;
+    width: 100vmin;
+    margin: 5vmin;
+    border: 1px solid black;
+    box-sizing: border-box
+}
 /* Indonesia */
 
 /* Colombia */
-#columbia {
-    height: 200px;
-    width: 300px;
-    border: 1px solid black
-}
-#columbia > .topSegment {
+.halfSegment {
     height: 50%;
-    background-color: yellow;
 }
-#columbia > .middleSegment, #columbia > .bottomSegment {
-    height: 25%;
+#columbia .yellow {
+    background-color: yellow
 }
-#columbia > .middleSegment {
+#columbia .blue {
     background-color: blue
 }
-#columbia > .bottomSegment {
+#columbia .red {
     background-color: red
 }
 /* Ireland */
