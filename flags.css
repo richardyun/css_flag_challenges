@@ -107,7 +107,27 @@
     transform: translateY(-50%)
 }
 /* Switzerland */
-
+#switzerland {
+    position: relative;
+    width: 60vmin;
+    background-color: red
+}
+#switzerland>.bar {
+    position: absolute;
+    margin: 20%;
+    background-color: whitesmoke
+}#switzerland>.vertical {
+    width: 20%;
+    height: 60%;
+    left: 30%;
+    transform: translateX(-50%)
+}
+#switzerland>.horizontal {
+    width: 60%;
+    height: 20%;
+    top: 30%;
+    transform: translateY(-50%)
+}
 /* Tonga */
 
 /* Japan */
