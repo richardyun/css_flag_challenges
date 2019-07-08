@@ -8,7 +8,18 @@
 /* Indonesia */
 
 /* Colombia */
-
+.halfSegment {
+    height: 50%;
+}
+#columbia .yellow {
+    background-color: yellow
+}
+#columbia .blue {
+    background-color: blue
+}
+#columbia .red {
+    background-color: red
+}
 /* Ireland */
 #ireland {
     display: flex
