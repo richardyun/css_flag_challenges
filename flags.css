@@ -63,7 +63,28 @@
     background-color: red
 }
 /* Benin */
-
+#benin>* {
+    float: left
+}
+.leftContainer {
+    width: 40%;
+    height: 100%;
+    background-color: green
+}
+.rightContainer {
+    width: 60%;
+    height: 100%;
+}
+.rightContainer>* {
+    width: 100%;
+    height: 50%
+}
+.rightContainer>.topSegment {
+    background-color: rgb(255, 217, 0)
+}
+.rightContainer>.bottomSegment {
+    background-color: red
+}
 /* Sweden */
 
 /* Switzerland */
