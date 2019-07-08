@@ -13,7 +13,7 @@
 #ireland {
     display: flex
 }
-#ireland>.leftSegment, #ireland>.middleSegment, #ireland>.rightSegment {
+#ireland>* {
     width: 100%
 }
 #ireland>.leftSegment {
