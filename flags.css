@@ -6,7 +6,15 @@
     box-sizing: border-box
 }
 /* Indonesia */
-
+#indonesia>* {
+    height: 50%;
+}
+#indonesia>.topSegment {
+    background-color: red
+}
+#indonesia>.bottomSegment {
+    background-color: whitesmoke
+}
 /* Colombia */
 .halfSegment {
     height: 50%;
