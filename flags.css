@@ -86,7 +86,26 @@
     background-color: red
 }
 /* Sweden */
-
+#sweden {
+    position: relative;
+    background-color: rgb(0, 132, 255)
+}
+#sweden>.bar {
+    position: absolute;
+    background-color: rgb(255, 217, 0)
+}
+#sweden>.vertical {
+    width: 12.5%;
+    height: 100%;
+    left: 33%;
+    transform: translateX(-50%)
+}
+#sweden>.horizontal {
+    width: 100%;
+    height: 20%;
+    top: 50%;
+    transform: translateY(-50%)
+}
 /* Switzerland */
 
 /* Tonga */
