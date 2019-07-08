@@ -95,14 +95,13 @@
     background-color: rgb(255, 217, 0)
 }
 #sweden>.vertical {
-    width: 12.5%;
+    width: 12.5vmin;
     height: 100%;
     left: 33%;
-    transform: translateX(-50%)
 }
 #sweden>.horizontal {
     width: 100%;
-    height: 20%;
+    height: 12.5vmin;
     top: 50%;
     transform: translateY(-50%)
 }
