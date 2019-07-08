@@ -1,16 +1,19 @@
 .flagContainer {
-    height: 66vmin;
-    width: 100vmin;
+    height: 60vmin;
+    width: 90vmin;
     margin: 5vmin;
     border: 1px solid black;
     box-sizing: border-box
 }
 /* Indonesia */
-#indonesia>.topSegment, #indonesia>.bottomSegment {
+#indonesia>* {
     height: 50%;
 }
 #indonesia>.topSegment {
     background-color: red
+}
+#indonesia>.bottomSegment {
+    background-color: whitesmoke
 }
 /* Colombia */
 
