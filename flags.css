@@ -44,9 +44,24 @@
 #ireland>.rightSegment {
     background-color: rgb(252, 143, 1)
 }
-
 /* France */
-
+#france {
+    font-size: 0
+}
+#france>* {
+    display: inline-block;
+    width: 33.33%;
+    height: 100%
+}
+#france>.leftSegment {
+    background-color: blue
+}
+#france>.middleSegment {
+    background-color: whitesmoke
+}
+#france>.rightSegment {
+    background-color: red
+}
 /* Benin */
 
 /* Sweden */
