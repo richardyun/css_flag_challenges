@@ -6,14 +6,33 @@
     box-sizing: border-box
 }
 /* Indonesia */
-
+#indonesia>* {
+    height: 50%;
+}
+#indonesia>.topSegment {
+    background-color: red
+}
+#indonesia>.bottomSegment {
+    background-color: whitesmoke
+}
 /* Colombia */
-
+.halfSegment {
+    height: 50%;
+}
+#columbia .yellow {
+    background-color: yellow
+}
+#columbia .blue {
+    background-color: blue
+}
+#columbia .red {
+    background-color: red
+}
 /* Ireland */
 #ireland {
     display: flex
 }
-#ireland>* {
+#ireland>.leftSegment, #ireland>.middleSegment, #ireland>.rightSegment {
     width: 100%
 }
 #ireland>.leftSegment {
@@ -25,9 +44,24 @@
 #ireland>.rightSegment {
     background-color: rgb(252, 143, 1)
 }
-
 /* France */
-
+#france {
+    font-size: 0
+}
+#france>* {
+    display: inline-block;
+    width: 33.33%;
+    height: 100%
+}
+#france>.leftSegment {
+    background-color: blue
+}
+#france>.middleSegment {
+    background-color: whitesmoke
+}
+#france>.rightSegment {
+    background-color: red
+}
 /* Benin */
 
 /* Sweden */
