@@ -167,7 +167,29 @@
     background-color: red
 }
 /* Canada */
-
+#canada {
+    height: 50vmin;
+    background-color: red
+}
+#canada>.middleSquare {
+    width: 50vmin;
+    height: 50vmin;
+    margin: 0 20vmin;
+    position: relative;
+    background-color: whitesmoke
+}
+#canada>.middleSquare::before {
+    content: "";
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 7vmin;
+    left: 1vmin;
+    background-image: url("./assets/images/canada_logo.png");
+    transform: rotateZ(28.5deg);
+    background-size: auto;
+    background-repeat: no-repeat
+}
 /* Norway */
 
 /* Greece */
