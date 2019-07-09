@@ -128,7 +128,32 @@
     transform: translateY(-50%)
 }
 /* Tonga */
-
+#tonga {
+    background-color: red
+}
+#tonga>.crossContainer {
+    position: relative;
+    width: 30vmin;
+    height: 30vmin;
+    background-color: whitesmoke
+}
+.crossContainer>.bar {
+    position: absolute;
+    margin: 20%;
+    background-color: red
+}
+.crossContainer>.vertical {
+    width: 20%;
+    height: 60%;
+    left: 30%;
+    transform: translateX(-50%)
+}
+.crossContainer>.horizontal {
+    width: 60%;
+    height: 20%;
+    top: 30%;
+    transform: translateY(-50%)
+}
 /* Japan */
 
 /* Canada */
