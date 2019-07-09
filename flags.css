@@ -95,19 +95,38 @@
     background-color: rgb(255, 217, 0)
 }
 #sweden>.vertical {
-    width: 12.5%;
+    width: 12.5vmin;
     height: 100%;
     left: 33%;
-    transform: translateX(-50%)
 }
 #sweden>.horizontal {
     width: 100%;
-    height: 20%;
+    height: 12.5vmin;
     top: 50%;
     transform: translateY(-50%)
 }
 /* Switzerland */
-
+#switzerland {
+    position: relative;
+    width: 60vmin;
+    background-color: red
+}
+#switzerland>.bar {
+    position: absolute;
+    margin: 20%;
+    background-color: whitesmoke
+}#switzerland>.vertical {
+    width: 20%;
+    height: 60%;
+    left: 30%;
+    transform: translateX(-50%)
+}
+#switzerland>.horizontal {
+    width: 60%;
+    height: 20%;
+    top: 30%;
+    transform: translateY(-50%)
+}
 /* Tonga */
 
 /* Japan */
