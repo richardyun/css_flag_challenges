@@ -155,7 +155,17 @@
     transform: translateY(-50%)
 }
 /* Japan */
-
+#japan {
+    display: flex;
+    background-color: whitesmoke
+}
+#japan>.circle {
+    width: 35vmin;
+    height: 35vmin;
+    border-radius: 50%;
+    margin: auto;
+    background-color: red
+}
 /* Canada */
 
 /* Norway */
