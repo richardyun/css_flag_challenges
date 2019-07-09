@@ -191,7 +191,40 @@
     background-repeat: no-repeat
 }
 /* Norway */
-
+#norway {
+    position: relative;
+    background-color: red
+}
+#norway>* {
+    position: absolute;
+    background-color: whitesmoke
+}
+#norway>.verticalWhite {
+    width: 18vmin;
+    height: 60vmin;
+    left: 25vmin;
+}
+#norway>.horizontalWhite {
+    width: 90vmin;
+    height: 18vmin;
+    top: 30vmin;
+    transform: translateY(-50%)
+}
+#norway .thinStripe {
+    position: absolute;
+    background-color: blue
+}
+#norway .verticalBlue {
+    width: 10vmin;
+    height: 60vmin;
+    margin: 0 4vmin;
+    z-index: 1;
+}
+#norway .horizontalBlue {
+    width: 90vmin;
+    height: 10vmin;
+    margin: 4vmin 0
+}
 /* Greece */
 
 /* Somalia */
