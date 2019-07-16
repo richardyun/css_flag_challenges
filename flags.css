@@ -195,7 +195,19 @@
 /* Greece */
 
 /* Somalia */
-
+#somalia {
+    position: relative;
+    background-color: rgb(83, 158, 255);
+}
+#somalia>.starContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 15rem;
+    line-height: 15rem;
+    color: whitesmoke
+}
 /* Chile */
 
 /* Turkey */
