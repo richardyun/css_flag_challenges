@@ -199,7 +199,36 @@
 /* Chile */
 
 /* Turkey */
-
+#turkey {
+    position: relative;
+    background-color: red
+}
+#turkey * {
+    position: absolute;
+}
+#turkey .circle {
+    border-radius: 50%
+}
+#turkey>.large {
+    background-color: whitesmoke;
+    height: 35vmin;
+    width: 35vmin;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%) rotate(135deg)
+}
+#turkey .small {
+    background-color: red;
+    height: 29vmin;
+    width: 29vmin;
+}
+#turkey>.starContainer {
+    font-size: 8rem;
+    color: whitesmoke;
+    left: 45%;
+    top: 28%;
+    transform: rotate(-15deg)
+}
 /* China */
 
 /* Cuba */
